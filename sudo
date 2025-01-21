@@ -1,0 +1,7 @@
+FILES:
+    /etc/sudoers.d/sudo_config -> sudoers policies
+    /var/log/sudo -> sudoers log file
+installing:
+    apt install sudo
+check version:
+    sudo -V (| more)

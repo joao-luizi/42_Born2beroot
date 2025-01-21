@@ -1,0 +1,18 @@
+Files:
+    /etc/group
+
+add group:		
+    (sudo) addgroup <groupname>
+	(sudo) groupadd <groupname>
+delete group:		
+    (sudo) delgroup <groupname>
+	(sudo) groupdel <groupname>
+show groups:		
+    all:
+        (sudo) getent group
+        (sudo) cat /etc/group (| more)
+        (sudo) cat /etc/group (| grep <groupname>)
+    
+show one group:		
+    (sudo) getent group <groupname>
+

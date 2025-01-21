@@ -1,0 +1,29 @@
+install package
+    (sudo) apt install <package-name>
+
+Example:
+    apt install sudo
+
+get package information
+    apt show <package-name>
+
+Example:
+    apt show sudo
+    dpkg -s <packagename> 
+
+get installed packages:
+    all:
+        apt list --installed
+    specific package:
+        apt list --installed | grep <package-name>
+    Example: 
+        apt list --installed | grep sudo (or "sudo")
+
+update
+    Example:
+        sudo apt update
+
+
+
+ 
+
