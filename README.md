@@ -27,7 +27,7 @@ A system administration project from the 42 curriculum. The goal is to configure
 ## Mandatory Part
 
 ### Operating System
-- **OS**: Debian 11 (Bullseye)
+- **OS**: Debian
 - **Shell only**: No graphical interface, as per subject.
 - **Virtualization**: VirtualBox (no snapshots used)
 
